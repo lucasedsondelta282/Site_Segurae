@@ -1,23 +1,24 @@
-:root {
-    /* Cores corrigidas - observe os valores hexadecimais */
-    --primary: #5d6dc3;
-    --primary-dark: #4a5ab5;  /* Corrigido de #4a3sab5 */
-    --secondary: #ff7e9d;     /* Corrigido de #7f7e9b */
-    --light: #f8f9ff;         /* Corrigido de #ff8fff */
-    --dark: #2c3e50;          /* Corrigido de #2c3e9b */
-    --gray: #7f8c8d;
-    --light-gray: #ecf0f1;    /* Corrigido de #ecf0fi */
+input {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--light); /* Adicionado -- */
+.plano-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+.plano-card h2 {
+    color: #0077cc;
+}
+
+.plano-card button {
+    margin-top: 0.5rem;
 }
