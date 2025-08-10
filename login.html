@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | SEGURAÊ+</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login | SEGURÂE+</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Entrar no SEGURAÊ+</h1>
-        <p>Digite seus dados para continuar</p>
-        
-        <form>
+    <header>
+        <h1>SEGURÂE+</h1>
+    </header>
+
+    <main class="container">
+        <h2>Entrar na sua conta</h2>
+        <p>Digite seu e-mail e senha para continuar.</p>
+
+        <form action="index.html" method="post" class="form-box">
             <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="seu@email.com" required>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
 
             <label for="senha">Senha</label>
-            <input type="password" id="senha" placeholder="********" required>
+            <input type="password" id="senha" name="senha" placeholder="Sua senha" required>
 
             <button type="submit">Entrar</button>
         </form>
 
-        <p style="text-align:center; margin-top: 1rem;">
-            Ainda não tem conta? <a href="#">Cadastre-se</a>
+        <p class="link-center">
+            Ainda não tem conta? <a href="formulario.html">Cadastre-se</a>
         </p>
-    </div>
+    </main>
 </body>
 </html>
